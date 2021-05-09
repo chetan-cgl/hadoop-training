@@ -1,0 +1,6 @@
+Final Case study is shared with everyone
+Expected answer in three steps 
+1. Using hadoop or hive.
+2. Using spark sql
+3. Using scala application
+Answer should be submitted on GitHub repo with screen shots and read me file with steps to run application.
