@@ -1,8 +1,8 @@
 # hadoop-training
 
-## Repository Contain Spark/Scala practice data
+## Spark Scala  Job Application 
 
-### Student
-Contain sample program for scala practice
--	Student : Return grade of student based on given percentage 
--	Calculator :  Perform operation based on inputs and operration to be perform (add,sub, multi,div)
+### Run below command to execute Job Application
+-	spark-submit --master localhost --class {main class} {path to jar directory}/{jar-name}.jar  paramter1 paramter2 paramter3  paramter4
+
+- e.g. spark-submit --master localhost --class AdsRecommendation /home/chetan/workstation/workspace/IntelliJWorkspace/AdsRecommend/build/libs/AdsRecommend-1.0-SNAPSHOT.jar  file:///home/chetan/workstation/github/hadoop-training/final-assignment/input-data/min-clicks.json file:///home/chetan/workstation/github/hadoop-training/final-assignment/input-data/min-impressions.json file:///home/chetan/workstation/github/hadoop-training/final-assignment/3-scala/goal-2-calculate-metrics/metrics file:///home/chetan/workstation/github/hadoop-training/final-assignment/3-scala/goal-3-top-recommendation/recommendation
